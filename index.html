@@ -1,7 +1,7 @@
 <!--This first line is required for all html documents-->
 <!DOCTYPE html>
-<!--This line-->
-<html lang ="en">
+<!--This line tells browser that this document is english-->
+<html lang="en">
 
 <!--The heading contains elements that are not directly displayed on the webpage-->
 <head>
@@ -13,15 +13,18 @@
 <!--use inline CSS to change background-color-->
 <body style="background-image: url(stars.jpeg)">
     <main>
-        <h1 style="text-align: center;">Welcome To My Website</h1>
+        <!--main text they see-->
+        <h1 style="text-align: center; font-size: 40px;">Welcome To My Website</h1>
         <!--you can use <a> to link to another html document in the project-->
-        <p style="text-align: center; font-size: 30"><a href="thoughts.html">Thoughts</a></p>
+        <p style="text-align: center; font-size: 30px;">Sections: <a href="thoughts.html">Thoughts</a>, <a href="music.html">Music</a>, <a href="books.html">Books</a></p>
+
         <!--this is how you use anchors <a></a> to attach link to text-->
         <p><a href="https://www.youtube.com/@PurelyHuman3">link</a> to the best youtube channel ever</p>
         <p style="text-align: center;">Here is a picture of a <b>pretty</b> dinosaur</p>
 
-        <!--for images, you must use relative file pathss. The absolute file path will not work for privacy reasons-->
-        <center><img src="konstantin-tonkonozhko-dragon-small.jpg" alt="an awesome picture I found on the internet"></img></center>
+        <!--for images, you must use relative file pathss. The absolute file path will not work for privacy reasons--> 
+        <!--does not seem to be easy to use inline CSS to align image in center, like style="text-align: center" for text-->
+        <center><img src="konstantin-tonkonozhko-dragon-small.jpg" alt="an awesome picture I found on the internet"><center>
         <p>If you wanna learn more about dinosaurs, go to this page <a href="https://www.nhm.ac.uk/discover/dinosaurs.html">here</a></p>
         <p>In the meantime, here are some cool fun facts:</p>
         <p>they are thought to have gone extinct 65 million years ago</p>
