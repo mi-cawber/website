@@ -1,13 +1,23 @@
+<!--Ideas:
+1. Add photos for the composers
+2. Add music samples for the composers
+-->
+
+
 <!DOCTYPE html>
 <body style="background-color: brown;">
     <h1 style="text-align: center;">Music</h1>
     <center><img src="photos/chopin_salon.jpg"><center>
-        <!--this code implements audio player-->
+        <!--this code implements audio player
+        controls: simply adds audio control bar (pause, play, scrub)
+        autoplay: meant to ensure automatic playing of audio, doesn't seem to work here-->
         <audio controls autoplay>
             <source src="music/ChopinLarghetto.mp3">
+            <!--This is the error message if the browser won't play the music-->
             Whoops, browser does not support this audio feature.
         </audio>
 
+        <!--Label for the music implemented above-->
     <p style="text-align: center;">
 
         <!--<b> is used to bold the font-->
@@ -21,12 +31,68 @@
     </p>
 
     <h2 style="text-align: left">Here are some of my favorite composers:</h2>
-    <p style="text-align: left"><b>Baroque Era</b>I don't listen to much baroque music in my daily life, 
+
+    <!--introduce composers by era, start with baroque-->
+    <p style="text-align: left"><b>Baroque Era: </b>I don't listen to much baroque music in my daily life, 
         but the influence these composers had on future generations
         is impossible to ignore, and therefore it is helpful to have
         a working knowledge of baroque composers and baroque music.
     </p>
-    <ol>
-        <l
+    
+    <!--Picture of Bach--> 
+    <img src="/photos/bach.jpeg" alt="Portrait of J.S. Bach" style="width: 202px; height: 249px">
+
+    <!--list of baroque composers (literally only bach)-->
+    <ol style="text-align: left">
+        <li><b>J.S. Bach (1685-1750): </b> Bach is a household name even
+        in the twenty-first century. Although he did not have
+        Access to the modern piano, many of his keyboard works
+        written for earlier keyboard instruments like clavichord
+        or harpsichord are staples for modern piano repertoire. 
+        The works I listen to most are:
+            <ul>
+                <li>Goldberg Variations, BWV 998: Particularly the famous
+                     <a href="https://www.youtube.com/watch?v=wuY20YN6F4k">1981 Glenn Gould recording</a>. The legend around the origin of this piece is that Bach was commissioned to write the
+                     work by a nobleman who had sleeping problems. The idea was that he would lie down
+                    and have his harpsichordist play these variations for him when he couldn't sleep.</li>
+                <li>Well-Tempered Clavier, BWV 846-893:  Again, Glenn Gould comes to the rescue</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!--Introduce the classical era-->
+    <p style="text-align: left"><b>Classical Era: </b> The classical era was my first
+        serious introduction to classical music. It is the era that starts to see
+        more emphasis on expression (due to figures like Beethoven), but still
+        prioritized a consistency in style and form.
+    </p>
+
+    <img src="/photos/beethoven.jpg" alt="Portrait of Ludwig van Beethoven"style="width: 202px; height: 249px">
+
+    <!--List of classical era composers-->
+    <ol style="text-align: left">
+        <li><b>Ludwig van Beethoven (1770-1827): </b> An absolute staple in 
+            classical music history--probablythe most famous composer of all
+            time. Apparently he was quite a moody fellow, and was easily irritated.
+            He was well-known for playing the piano with great expression and would
+            often break the strings on the pianos he played. Maybe partly due to this
+            former fact, later in life he began to lose his hearing. Instead of giving 
+            up on music,he took the legs off his pinao, set it on the ground, and played
+            by feeling the vibrations of the notes.
+            A couple of famous pieces:
+                <ul>
+                    <li>Piano Sonata No. 14 in C-Sharp Minor: Arguably his most recognizable
+                        piano sonata, the classic "Moonlight Sonata." Interestingly, the name
+                        was not given by Beethoven himself,
+                        but by a German music critic and poet named Ludwig Rellstab in 1832. He
+                        compared the first movement to moonlight shining upon 
+                        <a href="https://en.wikipedia.org/wiki/Lake_Lucerne">Lake Lucerne</a> 
+                        (a lake in Switzerland). The first movement of this sonata was the first
+                        piece I learned to play on the piano. The second movement is often
+                        underappreciated, but I think it is really beautiful too.
+                        <a href="https://www.youtube.com/watch?v=rlJHNufol8Q"></a>Here is a performance of this piece played by Daniel Barenboim.
+                    </li>
+                </ul>
+        </li>
     </ol>
 </body>
